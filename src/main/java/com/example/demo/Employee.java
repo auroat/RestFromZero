@@ -19,7 +19,6 @@ class Employee {
 	this.role = role;
     }
 
-    public Employee() {
-    }
+    public Employee() {}
 
 }

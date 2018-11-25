@@ -27,8 +27,7 @@ class EmployeeController {
 	this.assembler = assembler;
     }
 
-    // Aggregate root
-
+    // Aggregate root.
     @GetMapping("/employees")
     Resources<Resource<Employee>> all() {
 
